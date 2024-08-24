@@ -5,13 +5,13 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#welcome-container, #welcome-screen,#colorscheme-container, .colorscheme-box{
+#welcome-container, #darkmode-toggle, #welcome-screen,#colorscheme-container, .colorscheme-box{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 620px;
-
 }
+
 .colorscheme-box{
     font-size: 15px;
 }
@@ -76,5 +76,7 @@ h1#title{
 #colorscheme-white{
     background-color: rgb(242,242,247);
 }
+
+
 /* || FIM DA TELA DE BEM VINDO */
 

@@ -20,6 +20,7 @@ var bodyDark = document.body;
 var welcomeBoxDark = document.getElementById('welcome-screen');
 var welcomeTextDark = document.getElementById('title');
 var headerDark = document.getElementById('header');
+var toggleBtn = document.getElementById('darkmode-animation');
 
 function toggleDarkMode(){
     bodyDark.classList.toggle('body-dark');
@@ -27,3 +28,4 @@ function toggleDarkMode(){
     welcomeTextDark.classList.toggle('welcome-text-dark');
     headerDark.classList.toggle('header-dark');
 };
+
