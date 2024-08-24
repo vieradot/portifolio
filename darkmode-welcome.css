@@ -1,7 +1,7 @@
 .body-dark{
     background-color: rgb(28,28,30);
 }
-.welcome-screen-dark, .header-dark, .toggle-dark{
+.welcome-screen-dark, .header-dark{
     background-color: rgb(44,44,46);
 }
 .welcome-text-dark{

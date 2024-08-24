@@ -20,7 +20,7 @@ var bodyDark = document.body;
 var welcomeBoxDark = document.getElementById('welcome-screen');
 var welcomeTextDark = document.getElementById('title');
 var headerDark = document.getElementById('header');
-var toggleBtn = document.getElementById('darkmode-animation');
+var toggleBtn = document.getElementById('darkmode-toggle');
 
 function toggleDarkMode(){
     bodyDark.classList.toggle('body-dark');
@@ -29,3 +29,10 @@ function toggleDarkMode(){
     headerDark.classList.toggle('header-dark');
 };
 
+function toggleAnimation(){
+    if(toggleBtn.style.justifyContent = 'flex-start'){
+        toggleBtn.style.justifyContent = 'flex-end';
+    }else{
+        toggleBtn.style.justifyContent = 'flex-start';
+    }
+}
