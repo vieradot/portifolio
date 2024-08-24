@@ -1,0 +1,9 @@
+.body-dark{
+    background-color: rgb(28,28,30);
+}
+.welcome-screen-dark, .header-dark{
+    background-color: rgb(44,44,46);
+}
+.welcome-text-dark{
+    color: rgb(242 242 247);
+}

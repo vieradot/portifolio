@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    background-color: rgb(242,242,247);
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#welcome-container, #welcome-screen,#colorscheme-container, .colorscheme-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 620px;
+
+}
+.colorscheme-box{
+    font-size: 15px;
+}
+#colorscheme-container{
+    position: absolute;
+    margin-top: 90px;
+}
+
+/* || TELA DE BEM VINDO */
+#welcome-screen{
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 500px;
+    width: 1000px;
+    border-radius: 5%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+h1#title{
+    font-size: 50px;
+    cursor: default;
+}
+#profile-picture{
+    width:  150px;
+    height: 150px;
+}
+
+.colorscheme-box{
+    width: 90px;
+    height: 90px
+}
+
+.rgb-show{
+    visibility: hidden;
+}
+
+
+#colorscheme-red{
+    background-color: rgb(255,59,48);
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+
+#colorscheme-yellow{
+    background-color: rgb(255,204,0);
+}
+
+#colorscheme-green{
+    background-color: rgb(52,199,89);
+}
+
+#colorscheme-blue{
+    background-color: rgb(0,122,255);
+}
+
+#colorscheme-gray{
+    background-color: rgb(142,142,147);
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+#colorscheme-white{
+    background-color: rgb(242,242,247);
+}
+/* || FIM DA TELA DE BEM VINDO */
+

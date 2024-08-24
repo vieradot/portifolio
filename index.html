@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Title</title>
+<link rel="stylesheet" href="welcome.css">
+<link rel="stylesheet" href="darkmode-welcome.css">
+<link rel="stylesheet" href="header.css">
+</head>
+<body onload="showRGB()">
+    <div id="header">
+        <h2 id="header-logo">felipe.dev</h2>
+        <div id="header-links-container">
+            <h2 class="header-link">projetos</h2>
+            <h2 class="header-link">sobre</h2>
+
+        </div>
+    </div>
+    <!-- TELA DE BEM VINDO -->
+    <div class="container" id="welcome-container">
+        <div id="welcome-screen">
+            <h1 class="text" id="title">Bem Vindo</h1>
+            <img id="profile-picture" src="resources/computer.gif">
+            <div id="colorscheme-container">
+                <div class="colorscheme-box" id="colorscheme-red" onmouseover="hideRGB()" onmouseout="showRGB()"><p class="rgb-colorscheme">255 59 48</p></div>
+                <div class="colorscheme-box" id="colorscheme-green" onmouseover="hideRGB()" onmouseout="showRGB()"><p class="rgb-colorscheme">52 199 89</p></div>
+                <div class="colorscheme-box" id="colorscheme-blue" onmouseover="hideRGB()" onmouseout="showRGB()"><p class="rgb-colorscheme">0 122 255</p></div>
+                <div class="colorscheme-box" id="colorscheme-yellow" onmouseover="hideRGB()" onmouseout="showRGB()"><p class="rgb-colorscheme">255 204 0</p></div>
+                <div class="colorscheme-box" id="colorscheme-white"onmouseover="hideRGB()" onmouseout="showRGB()"><p class="rgb-colorscheme">242 242 247</p></div>
+                <div class="colorscheme-box" id="colorscheme-gray" onmouseover="hideRGB()" onmouseout="showRGB()"><p class="rgb-colorscheme">142 142 147</p></div>
+            </div>
+        </div> 
+    </div>
+    <button id="darkmode-toggle" onclick="toggleDarkMode()">dark mode</button>
+    <!-- FIM DA TELA DE BEM VINDO -->
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
